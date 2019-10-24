@@ -7,15 +7,10 @@ sections:
 - type: heading
   label: Home
 - type: directory
-  path: journal
-  label: Journal
-  create: documents
-  match: "**/*.md"
-  templates:
-  - journal
-- type: document
-  path: data/theme.json
-  label: Theme config
+  path: ''
+  label: dd
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
